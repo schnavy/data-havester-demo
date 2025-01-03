@@ -1,0 +1,39 @@
+* {
+  user-select: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  background-color: lightgrey;
+}
+.container {
+  display: flex;
+  gap: 0;
+
+}
+
+.container img {
+  width: 64px;
+  height: 128px;
+  aspect-ratio: 1/2;
+  background-color: yellow;
+}
+
+.container img.big {
+  width: 26vw;
+  height: auto;
+  max-height: 90vh;
+  aspect-ratio: 2/3;
+
+}
+
+.switch-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
